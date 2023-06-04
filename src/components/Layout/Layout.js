@@ -1,5 +1,6 @@
 import { Suspense } from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
+import { AppBar, Loader, Footer } from 'components';
 
 import css from 'components/Layout/Layout.module.css';
 
@@ -7,26 +8,16 @@ export const Layout = () => {
   return (
     <>
       <header className={css.header}>
-        <nav className="container">
-          <ul className={css.list}>
-            <li>
-              <NavLink to="/" className={css.link}>
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/tweets" className={css.link}>
-                Tweets
-              </NavLink>
-            </li>
-          </ul>
-        </nav>
+        <AppBar />
       </header>
       <main>
-        <Suspense fallback={<div> Loading</div>}>
+        <Suspense fallback={<Loader />}>
           <Outlet />
         </Suspense>
       </main>
+      <footer className={css.footer}>
+        <Footer />
+      </footer>
     </>
   );
 };

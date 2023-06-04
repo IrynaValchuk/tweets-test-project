@@ -1,5 +1,13 @@
+import { UsersCardsList } from "components"
+
 const Home =()=> {
-  return <div>Home page</div>
+  return (
+    <section className='section'>
+    <div className="container">
+          <UsersCardsList />
+    </div>
+  </section>
+    )
 }
 
 export default Home
