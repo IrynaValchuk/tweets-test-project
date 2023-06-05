@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Tweet Card Display Web Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This web page allows you to display tweet cards, providing a visually appealing and user-friendly interface for showcasing tweets. The page is designed to make it easy for users to browse and interact with the tweet cards.
 
 ## Available Scripts
 
