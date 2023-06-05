@@ -6,10 +6,6 @@ export const getUsers = async page => {
     page: `${page}`,
     limit: `${LIMIT}`,
   };
-  try {
-    const responce = await axios.get(`${BASE_URL}`, { params });
-    return responce.data;
-  } catch (error) {
-    return console.log(error.massage);
-  }
+
+  return await axios.get(`${BASE_URL}`, { params }).then(({ data }) => data);
 };

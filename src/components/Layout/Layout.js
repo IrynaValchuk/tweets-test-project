@@ -10,7 +10,7 @@ export const Layout = () => {
       <header className={css.header}>
         <AppBar />
       </header>
-      <main>
+      <main className={css.main}>
         <Suspense fallback={<Loader />}>
           <Outlet />
         </Suspense>

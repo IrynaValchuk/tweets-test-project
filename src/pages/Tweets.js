@@ -1,5 +1,11 @@
-const Tweets =()=> {
-  return <div>Tweets page</div>
-}
+import { TweetsCard } from 'components';
 
-export default Tweets
+const Tweets = () => {
+  return (
+    <section className="section">
+      <TweetsCard />
+    </section>
+  );
+};
+
+export default Tweets;

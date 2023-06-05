@@ -1,13 +1,11 @@
-import { UsersCardsList } from "components"
+import { UsersCardsList } from 'components';
 
-const Home =()=> {
+const Home = () => {
   return (
-    <section className='section'>
-    <div className="container">
-          <UsersCardsList />
-    </div>
-  </section>
-    )
-}
+    <section className="section">
+      <UsersCardsList />
+    </section>
+  );
+};
 
-export default Home
+export default Home;

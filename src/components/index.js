@@ -1,7 +1,9 @@
 export * from 'components/App';
-export * from 'components/AppBar/AppBar'
-export * from 'components/Footer/Footer'
-export * from 'components/Layout/Layout'
-export * from 'components/Loader/Loader'
-export * from 'components/UsersCardsList/UsersCardsList'
-
+export * from 'components/AppBar/AppBar';
+export * from 'components/Button/Button';
+export * from 'components/Footer/Footer';
+export * from 'components/Layout/Layout';
+export * from 'components/Loader/Loader';
+export * from 'components/TweetsCard/TweetsCard';
+export * from 'components/UsersCardItem/UsersCardItem';
+export * from 'components/UsersCardsList/UsersCardsList';

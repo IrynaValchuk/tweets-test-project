@@ -11,11 +11,5 @@
   font-size: 30px;
   font-weight: 500;
   line-height: 1.14;
-  color: #5736A3;
-}
-
-.link:hover,
-.link:focus {
-  /* border-bottom: 5px solid #5736A3;
-  border-radius: 3px; */
+  color: #5736a3;
 }
